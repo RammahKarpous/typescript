@@ -1,6 +1,3 @@
 "use strict";
-let numbers = [];
-numbers.forEach((number) => {
-    console.log(number.toFixed(2));
-});
+let user = [1, "John"];
 //# sourceMappingURL=index.js.map

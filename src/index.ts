@@ -1,10 +1,4 @@
-// let numbers = [1, 2, '3']; // valid JS
+// Tuple is a new type in TypeScript which allows you to create an array with a fixed length
 
-// The string 3 ('3'), will result a compilation error at build time
-// let numbers: number[] = [1, 2, '3']; 
-
-// let numbers: number[] = [];
-
-// numbers.forEach((number) => {
-//     console.log(number.toFixed(2)); 
-// })
+// Example
+let user: [number, string] = [1, "John"];
