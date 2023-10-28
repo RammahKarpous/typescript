@@ -1,12 +1,9 @@
-let employee: {
-    readonly id: number,
-    readonly name: string,
-    retire: (date: Date) => void
-} = {
-    id: 3, 
-    name: "",
-    
-    retire: (date: Date) => {
-        console.log(date);
+function convertKgtoLbs(weight: number | string): number { 
+    // Narrowing
+    if ( typeof weight === 'number' ) {
+        return weight * 2.2;
+    } else {
+        return parseInt(weight) * 2.2;
     }
-};
+ }
+
