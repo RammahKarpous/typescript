@@ -1,8 +1,10 @@
-let sales: number = 123_456_789;
-let course: string = 'TypeScript';
-let is_published: boolean = true;
-let level;
+// let numbers = [1, 2, '3']; // valid JS
 
-function render(document) {
-    console.log(document);
-}
+// The string 3 ('3'), will result a compilation error at build time
+// let numbers: number[] = [1, 2, '3']; 
+
+// let numbers: number[] = [];
+
+// numbers.forEach((number) => {
+//     console.log(number.toFixed(2)); 
+// })
